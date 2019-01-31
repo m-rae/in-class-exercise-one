@@ -1,10 +1,17 @@
+<template>
+  <div>
+    <hw></hw>
+  </div>
+</template>
+
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import hw from './components/HelloWorld.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    hw
   }
 }
 </script>

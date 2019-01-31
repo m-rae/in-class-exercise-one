@@ -1,0 +1,25 @@
+/* <!-- Add "scoped" attribute to limit CSS to this component only --> */
+hello {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  height: 40px;
+  width: 200px;
+}
+button {
+  padding: 10px 0;
+  width: 150px;
+  color: aliceblue;
+  background-color: #42b983;
+  font-size: 20px;
+}
+
+button:disabled {
+  opacity: .5;
+}
+
+.error {
+  border: 1px solid red;
+}
